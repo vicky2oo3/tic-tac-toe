@@ -1,0 +1,22 @@
+body { background-color: #0a1931}
+.container{
+    display: grid;grid-gap: 0.1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 24rem; margin: auto
+
+}
+.box{
+    height: 9rem;background-color: #185adb;
+    color: #ffc947; font-size: 6rem;
+    text-align: center; cursor: pointer;
+}
+.heading{
+    color: #feddbe;text-align: center
+}
+.btn {
+    background-color: #ffc947; color: #185adb;
+    border: 0px; padding: 1rem; margin: auto;
+    font-weight: bold; cursor: pointer;
+}
+.btn:hover { background-color: #aac947 }
+.reset-container { text-align: center }
